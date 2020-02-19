@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    max-width: 1440px;
+    height: 850px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+header nav {
+    height: 100px;
+}
+
+header nav .logotype h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav .logotype h2 span {
+    color: #D1843A;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+header nav ul {
+    display: flex;
+    width: 1040px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul li i:last-child {
+    cursor: pointer;
+    color: #1C9DA7;
+}
+
+header nav ul li button {
+    background-color: #FFFFFF;
+    border-radius: 64px;
+    border: 1px solid #1C8E97;
+    width: 159px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;  
+}
+
+header nav ul li button span {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1C9DA7;;
+}
+
+header nav ul li .play-icon i {
+    margin-left: 10px;
+    color: #D1843A;
+}
+
+header .header-info {
+    height: 750px;
+    max-width: 100%;
+    background: linear-gradient(192.29deg, 
+    rgba(166, 228, 233, 0.2) -2.19%, 
+    rgba(234, 229, 229, 0.2) 112.88%), 
+    url("../img/header-image.png") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+header .header-info .header-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-info-wrapper .header-info-text h2 {
+    font-size: 70px;
+    width: 750px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.header-info-wrapper .header-info-help {
+    display: flex;
+}
+
+.header-info-help .help-text {
+    width: 600px;
+    font-size: 22px;
+    height: 200px;
+    line-height: 35px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.header-info-help .help-text p {
+    max-width: 410px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.header-info-help .help-search {
+    height: 200px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: relative;
+}
+
+.header-info-help .help-search h3 {
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+}
+
+.header-info-help .help-search input {
+    width: 350px;
+    height: 55px;
+    border-radius: 150px;
+    background: #EFEFEF;
+    border: none;
+    position: absolute;
+    left: 25px;
+    outline: none;
+}
+
+.header-info-help .help-search button {
+    background: #D1843A;
+    border-radius: 164px;
+    height: 55px;
+    width: 100px;
+    border: none;
+    position: absolute;
+    bottom: 35px;
+    left: 275px;
+    outline: none;
+    cursor: pointer; 
+}
+
+.header-info-help .help-search button i {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+main .rehab-centers {
+    background-color: #F6F6F6;
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .rehab-centers .rehab-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .rehab-centers .rehab-description h2 {
+    font-size: 36px;
+}
+
+main .rehab-centers .rehab-description button {
+    background: #1C8E97;
+    border-radius: 44px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+}
+
+main .rehab-centers .rehab-description p {
+    max-width: 650px;
+    text-align: center;
+    color: #727474;
+}
+
+main .rehab-centers .rehab-places {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: 120px;
+}
+
+main .rehab-centers .rehab-places .place h4 {
+    max-width: 250px;
+}
+
+main .rehab-centers .rehab-places .place .stars {
+    display: flex;
+    align-items: flex-start;
+}
+
+main .rehab-centers .rehab-places .place .stars i {
+    color: #FF6B00;
+    font-size: 10px;
+}
+
+main .rehab-centers .rehab-places .place .stars i:last-child {
+    color: #C4C4C4;
+}
+
+main .rehab-centers .rehab-places .place .place-photo {
+    background: url("../img/rehab-place.png") no-repeat;
+    width: 350px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+main .rehab-centers .rehab-places .place .place-wrapper {
+    width: 300px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+main .rehab-centers .rehab-places .place .sponsored {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    background-color: #F4F9F9;
+    height: 20px;
+    border-radius: 3px;
+    color: #A8B1B6;
+}
+
+main .rehab-centers .rehab-places .place .sponsored span {
+    margin-left: 10px;
+}
+
+main .rehab-centers .rehab-places .place .sponsored i {
+    margin-right: 10px;
+    color: #1C8E97;
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+main .rehab-centers .rehab-places .place span i {
+    color: #1C8E97;
+}
+
+main .educational-resources {
+    max-width: 1440px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: -20px;
+    height: 750px;
+}
+
+main .educational-resources .wrapper {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .educational-resources .wrapper .educational-guides {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+
+main .educational-resources .wrapper .educational-guides .vertical-line {
+    height: 120px;
+    width: 3px;
+    background-color: #337D8F;
+}
+
+main .educational-resources .wrapper .educational-guides p {
+    max-width: 400px;
+    color: #858888;
+    margin-top: -5px;
+}
+
+main .educational-resources .wrapper .educational-guides h2 {
+    max-width: 380px;
+    font-size: 42px;
+    color: #2A2A2A;
+    margin-top: -5px;
+}
+
+main .educational-resources .wrapper .educational-guides button {
+    border: 1px solid #D1843A;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    background: none;
+    text-transform: uppercase;
+    color: #D1843A;
+    cursor: pointer;
+}
+
+main .educational-resources .wrapper .treatment-hubs {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin-left: 170px;
+}
+
+main .educational-resources .treatment-hubs .hub {
+    background: #FFFFFF;
+    box-shadow: 3px 5px 25px rgba(134, 131, 151, 0.23);
+    border-radius: 4px;
+    width: 250px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+main .educational-resources .treatment-hubs p {
+    max-width: 235px;
+    font-size: 16px;
+}
+
+main .educational-resources .treatment-hubs a {
+    text-decoration: none;
+    color: #1C8E97;
+}
+
+main .educational-resources .treatment-hubs i {
+    margin: 10px 0 0 15px;
+}
